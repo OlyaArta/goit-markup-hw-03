@@ -36,6 +36,11 @@ img {
     padding-right: 15px;
   }
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .link {
     text-decoration: none;
   }
@@ -68,19 +73,17 @@ img {
 }
 
 .header-box {
-    border-bottom: 1px;
-    color: #fff;
     padding-bottom: 32px;
 }
 
 .header .container {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .navigation {
     display: flex;
-    align-items: center;
 }
 
 .logo-header {
@@ -254,8 +257,6 @@ img {
 /* ============= skills ============= */
 .skills-container {
     display: flex;
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 .skill-set {
@@ -291,10 +292,6 @@ img {
 /* ============= end skills ============= */
 /* ============= what we do ============= */
 
-.activity-section {
-    padding-bottom: 94px;
-}
-
 .activity-title {
     font-family: var(--main-font);
     font-weight: 700;
@@ -321,8 +318,6 @@ img {
 
 .team-section {
     background-color: #F5F4FA;
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 .team-list {
@@ -432,6 +427,25 @@ img {
     color: var(--accent-color);
 }
 
+.menu-section {
+    text-align: center;
+}
+
+
+.menu-list {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-item {
+    min-width: 73px;
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 8px;
+}
 
 .menu-btn {
     font-family: var(--main-font);
@@ -442,6 +456,7 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
+    padding: 6px 22px;
 
     color: #212121;
     background-color: #F5F4FA;
@@ -453,6 +468,23 @@ img {
     background-color: var(--accent-color);
 }
 
+.image-container {
+    padding-top: 34px;
+}
+
+.image-item {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    width: 370px;
+}
+
+.image-list {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin-left: -30px;
+}
+
 .portfolio-title {
     font-family: var(--main-font);
     font-weight: 700;
@@ -460,6 +492,11 @@ img {
     line-height: 2;
 
     letter-spacing: 0.06em;
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: start;
+
 
     color: #212121; 
 }
@@ -469,6 +506,10 @@ img {
     line-height: 1.87;
 
     letter-spacing: 0.03em;
+    padding-bottom: 20px;
+    text-align: start;
+    padding-left: 24px;
+    padding-right: 24px;
 
     color: #757575;    
 }
